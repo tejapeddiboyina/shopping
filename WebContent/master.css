@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+body, body * {
+	font-family: Roboto, sans-serif;
+}
+
+.logo {
+	width: auto;
+	height: 100px;
+}
+
+.heading {
+	font-weight: 300;
+	display: inline-block;
+	left:500px;
+}
+
+.title-flex {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.bg { 
+  /* The image used */
+  background-image: url("https://image.freepik.com/free-vector/shopping-online-sale-background_23-2147509490.jpg");
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg1 { 
+  /* The image used */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZeXTsk-w4WAwYicIdb06GRIi5U8pDEfOHKsFWP80zVHuBt2dfuw");
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+	
+
+.site-content {
+	text-align: center;
+}
+
+.site-footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+	text-align: center;
+}
+
+.form-table, .shopping-table {
+	margin: 10px auto;
+}
+
+.form-table td, .shopping-table td, .shopping-table th {
+	padding: 5px;
+}
+
+.shopping-table tr:first-child th {
+	border-bottom: 1px solid #000;
+}
+
+.form-table tr:last-child td {
+	text-align: center;
+}
+
+.form-table td:first-child {
+	text-align: right;
+}
+
+.form-table td:last-child {
+	text-align: left;
+}
+
+.txt {
+	display: inline-block;
+  margin: 3px 8px;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #2980b9;
+}
+
+.btn {
+	display: inline-block;
+  margin: 3px 8px;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #2980b9;
+  color: #2980b9;
+  transition: all linear .3s;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+	color: #fff;
+  background-color: #2980b9;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

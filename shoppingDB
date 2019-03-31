@@ -1,0 +1,14 @@
+create table User_1427616(username varchar2(20) primary key,
+password varchar2(20) not null
+)
+
+create table Item_1427616(
+	itemName varchar2(20) not null,
+	quant number not null,
+	price number not null
+);
+
+select * from User_1427616;
+select * from Item_1427616;
+
+
